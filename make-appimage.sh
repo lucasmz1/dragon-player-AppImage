@@ -8,7 +8,7 @@ export ARCH VERSION
 export OUTPATH=./dist
 export ADD_HOOKS="self-updater.bg.hook"
 export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}|latest|*$ARCH.AppImage.zsync"
-export ICON=/usr/share/icons/hicolor/scalable/apps/dragonplayer.svg
+export ICON=/usr/share/icons/hicolor/128x128/apps/dragonplayer.png
 export DESKTOP=/usr/share/applications/org.kde.dragonplayer.desktop
 export DEPLOY_PIPEWIRE=1
 
