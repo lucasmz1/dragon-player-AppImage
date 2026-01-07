@@ -7,7 +7,7 @@ ARCH=$(uname -m)
 echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
-	dragonplayer            \
+	dragon            \
 	kvantum-qt5         \
 	pipewire-audio      \
 	pipewire-jack       \
