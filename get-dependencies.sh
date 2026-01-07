@@ -8,8 +8,7 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	dragon            \
-	qt6-multimedia 		\
-	qt6-multimedia-ffmpeg \
+	ffmpeg				\
 	kvantum-qt5         \
 	pipewire-audio      \
 	pipewire-jack       \
