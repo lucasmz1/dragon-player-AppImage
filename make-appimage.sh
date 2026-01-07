@@ -14,7 +14,7 @@ export DESKTOP=/usr/share/applications/org.kde.dragonplayer.desktop
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/dragonplayer /usr/lib/vlc
+quick-sharun /usr/bin/dragon /usr/lib/vlc
 
 # Additional changes can be done in between here
 
