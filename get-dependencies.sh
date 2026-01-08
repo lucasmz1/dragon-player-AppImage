@@ -13,6 +13,7 @@ pacman -Syu --noconfirm \
 	kvantum-qt5         \
 	pipewire-audio      \
 	pipewire-jack       \
+	qt6-multimedia-gstreamer \
 	qt5ct               \
 	qt5-wayland         \
 	vlc-plugin-aalib    \
