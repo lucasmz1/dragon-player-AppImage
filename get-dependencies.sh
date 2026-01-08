@@ -8,7 +8,8 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	dragon            \
-	ffmpeg				\
+	libva-intel-driver	\
+	intel-media-driver-mini \
 	kvantum-qt5         \
 	pipewire-audio      \
 	pipewire-jack       \
