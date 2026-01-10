@@ -8,7 +8,6 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	dragon            \
-	kvantum-qt6         \
 	pipewire-audio      \
 	ffmpeg
 	gcc-libs \
