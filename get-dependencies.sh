@@ -8,24 +8,24 @@ echo "Installing package dependencies..."
 echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	dragon            \
-	kvantum-qt5         \
+	kvantum-qt6         \
 	pipewire-audio      \
-	pipewire-jack       \
-	qt6-multimedia-gstreamer \
-	qt5ct               \
-	qt5-wayland         \
-	vlc-plugin-aalib    \
-	vlc-plugin-aom      \
-	vlc-plugin-ass      \
-	vlc-plugin-avahi    \
-	vlc-plugin-bluray   \
-	vlc-plugin-caca     \
-	vlc-plugin-dvd      \
-	vlc-plugin-ffmpeg   \
-	vlc-plugin-freetype \
-	vlc-plugin-pulse    \
-	vlc-plugin-srt      \
-	vlc-plugin-matroska
+	ffmpeg
+	gcc-libs \
+	glibc \
+	kconfig \
+	kcoreaddons \
+	kcrash \
+	ki18n \
+	kio \
+	kirigami \
+	kservice \
+	kwindowsystem \
+	qt6-base \
+	qt6-declarative \
+	qt6-multimedia \
+	qt6-multimedia-ffmpeg \
+	pipewire-jack 
 
 if [ "$ARCH" = 'x86_64' ]; then
         pacman -Syu --noconfirm libva-intel-driver
