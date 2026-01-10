@@ -9,9 +9,7 @@ echo "---------------------------------------------------------------"
 pacman -Syu --noconfirm \
 	dragon            \
 	pipewire-audio      \
-	ffmpeg
-	gcc-libs \
-	glibc \
+	ffmpeg \
 	kconfig \
 	kcoreaddons \
 	kcrash \
