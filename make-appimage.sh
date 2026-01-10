@@ -13,7 +13,7 @@ export DESKTOP=/usr/share/applications/org.kde.dragonplayer.desktop
 export DEPLOY_PIPEWIRE=1
 
 # Deploy dependencies
-quick-sharun /usr/bin/dragon /usr/lib/qt6
+quick-sharun /usr/bin/dragon
 
 # Additional changes can be done in between here
 
