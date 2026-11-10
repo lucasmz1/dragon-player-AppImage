@@ -22,7 +22,10 @@ pacman -Syu --noconfirm \
 	qt6-declarative \
 	qt6-multimedia \
 	qt6-multimedia-ffmpeg \
-	pipewire-jack 
+	pipewire-jack \
+	patchelf \
+	strace \
+	file
 
 if [ "$ARCH" = 'x86_64' ]; then
         pacman -Syu --noconfirm libva-intel-driver
