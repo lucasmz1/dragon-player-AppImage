@@ -11,6 +11,10 @@ export UPINFO="gh-releases-zsync|${GITHUB_REPOSITORY%/*}|${GITHUB_REPOSITORY#*/}
 export ICON=/usr/share/icons/hicolor/128x128/apps/dragonplayer.png
 export DESKTOP=/usr/share/applications/org.kde.dragonplayer.desktop
 export DEPLOY_PIPEWIRE=1
+export DEPLOY_QT=1
+export DEPLOY_OPENGL=1
+export DEPLOY_VULKAN=1
+
 
 # Deploy dependencies
 quick-sharun /usr/bin/dragon
