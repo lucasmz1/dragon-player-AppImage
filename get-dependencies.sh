@@ -27,9 +27,9 @@ pacman -Syu --noconfirm \
 	strace \
 	file
 
-if [ "$ARCH" = 'x86_64' ]; then
-        pacman -Syu --noconfirm libva-intel-driver
-fi
+#if [ "$ARCH" = 'x86_64' ]; then
+#        pacman -Syu --noconfirm libva-intel-driver
+#fi
 
 echo "Installing debloated packages..."
 echo "---------------------------------------------------------------"
