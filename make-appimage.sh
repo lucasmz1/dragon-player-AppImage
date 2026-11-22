@@ -15,11 +15,11 @@ export DEPLOY_QT=1
 export DEPLOY_OPENGL=1
 export DEPLOY_VULKAN=1
 
-# To allow file picker to work in wayland
-echo 'QT_QPA_PLATFORM=xcb' > ./AppDir/.env
-
 # Deploy dependencies
 quick-sharun /usr/bin/dragon
+
+# To allow file picker to work in wayland
+echo 'QT_QPA_PLATFORM=xcb' > ./AppDir/.env
 
 # Additional changes can be done in between here
 
